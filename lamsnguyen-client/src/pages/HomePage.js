@@ -5,8 +5,10 @@ import { withRouter, useHistory, Link } from "react-router-dom";
 function HomePage(prop) {
   return (
     <div>
-      <p>Hi, this is Lam</p>
-      <p>Please choose a languaga</p>
+      <p>
+        Please choose a language
+      </p>
+      <img className="English" src="../assets/English.png"></img>
     </div>
   )
 }
