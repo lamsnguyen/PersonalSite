@@ -10,15 +10,15 @@ function Language() {
 
 }
 
-function HomePage(prop) {
+function HomePageVN(prop) {
   return (
     <div className="homepage-container">
       <header class="header fixed-top rad-animation-group" id="header">
         <div class="container rad-fade-in">
           <nav class="navbar navbar-expand-lg navbar-light p-0">
             <a class="navbar-brand">
-              <img class="navbar-brand language" src={ENG}></img>
-              <img class="navbar-brand language" src={VIE} href="/VI"></img>
+              <img src={ENG}></img>
+              <img src={VIE} href="/VI"></img>
             </a>
             <button
               class="navbar-toggler"
@@ -34,7 +34,6 @@ function HomePage(prop) {
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-lg-auto">
-
                 <li class="nav-item">
                   <a data-scroll class="nav-link" href="/#about"
                   >ABOUT</a
@@ -52,7 +51,6 @@ function HomePage(prop) {
                   >CONTACT</a
                   >
                 </li>
-
               </ul>
             </div>
           </nav>
@@ -84,7 +82,7 @@ function HomePage(prop) {
               <p class="lead">
                 Becoming a Business Analyst enabled me to find my mission: <strong>When we create better user experiences, we make a better world.</strong>
               </p>
-              <a href="https://m.me/nfallin" class="btn btn-primary">
+              <a href="https://m.me/zmarmara" class="btn btn-primary">
                 <i class="icons8-facebook-messenger"></i>
                   &nbsp;Send your message
               </a>
@@ -124,6 +122,6 @@ function HomePage(prop) {
   )
 }
 
-export default withRouter(HomePage);
+export default withRouter(HomePageVN);
 
 
